@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <center>
+        <title>APPLICATION FORM</title>
+        <link rel="stylesheet" type="text/css" href="css/style1.css">
+        </head>
+
+        <body style="background-color: aqua;">
+            <h1>JOB APPLICATION</h1>
+            <form action="apply.php" method="POST">
+
+            <h3>personal information </h3>
+
+
+
+              <br><br>
+  
+
+
+            First Name <input type="text" name="firstname" placeholder="first name">
+            Last Name <input type="text" name="lastname" placeholder="last name">
+            Middle Name <input type="text" name="middlename" placeholder="middle name">
+
+
+            <br><br>
+
+            <table>
+                <tr>
+                    <td>Current Address </td>
+                    <td>Permanant Address</td>
+
+                    </tr>
+                    <tr>
+                        <td><textarea rows="10" cols="30" name="currentaddress" placeholder="type your address..."></textarea>></td>
+                        <td><textarea rows="10" cols="30" name="permanantaddress" placeholder="type your address..."></textarea>></td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <p><strong>Phone:</strong></p>
+                Home phone:<input type="number"name="phone"size="30"maxlength="4"placeholder="code">
+                
+                
+                <br><br>
+
+
+
+                E-mail <input type="Email" name="email" placeholder="email address">
+                Upload cv: <input type="file" name="cv" >
+
+
+
+
+            <br><br>
+
+
+
+                <strong>Employment desired</strong>
+
+
+
+
+                <br><br>
+
+
+
+
+
+                <p><strong>Position:</strong></p>
+                manager: <input type="radio" name="position" value="manager">
+                secretary: <input type="radio" name="position"value="secretary">
+                security: <input type="radio" name="position"value="security">
+                cleaner: <input type="radio" name="position"value="cleaner">
+                <br>
+                <p><strong>are you currennt employed:</strong></p>
+                Yes:<input type="radio" name="currentimployed" value="y">
+                No:<input type="radio" name="currentimployed" value="n">
+
+
+
+
+                <br><br>
+
+
+
+
+
+                <strong>Start Date:</strong>
+                <input type="date" name="startdate">
+
+             <br><br>
+            
+
+
+
+                <strong>Availability</strong>
+
+
+
+
+                <br><br>
+
+
+
+
+
+                Monday:<input type="checkbox" name="day" value="monday">
+                Tuesday:<input type="checkbox" name="day"value="Tuesday">
+                Wednesday:<input type="checkbox" name="day"value="Wednesday">
+                Thursday:<input type="checkbox" name="day"value="Thursday">
+                Friday:<input type="checkbox" name="day"value="Friday">
+
+            
+
+
+
+
+                <br><br>
+
+
+
+
+                <strong> Submit:<input  type="submit" name="submit"></strong>
+
+                
+
+            
+                 
+
+
+                </form>
+            </center>
+            </body>
+        </html>
